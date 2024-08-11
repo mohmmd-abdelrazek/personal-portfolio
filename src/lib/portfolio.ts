@@ -5,19 +5,19 @@ const projects: Project[] = [
     title: "Paddle game",
     imgUrl: "/img1.png",
     stack: ["React.js", "Tailwind"],
-    link: "sdfaasdfsf",
+    link: "/",
   },
   {
     title: "sport league creator website",
     imgUrl: "/img1.png",
     stack: ["Next.js", "Tailwind", "Express.js", "postgresql"],
-    link: "sdfaasdfsf",
+    link: "/",
   },
   {
     title: "ecommerce website",
     imgUrl: "/img1.png",
     stack: ["Next.js", "Tailwind", "Express.js", "mongodb"],
-    link: "sdfaasdfsf",
+    link: "/",
   },
 ];
 

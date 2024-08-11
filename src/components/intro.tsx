@@ -8,7 +8,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 const Intro = () => {
   return (
-    <section className="text-center sm:max-w-[50rem]">
+    <section id="home" className="text-center sm:max-w-[45rem] lg:max-w-[50rem]">
       <div className="flex justify-center items-center">
         <div className="relative">
           <motion.div
@@ -20,7 +20,7 @@ const Intro = () => {
             }}
           >
             <Image
-              src="https://res.cloudinary.com/dhliba9i5/image/upload/v1721560855/personal%20photos/f457231984_obtywi.jpg"
+              src="https://res.cloudinary.com/dhliba9i5/image/upload/v1721834767/personal%20photos/image_3_hmibla.png"
               alt="Mohmmd Portrait"
               width={192}
               height={192}
@@ -45,19 +45,17 @@ const Intro = () => {
         </div>
       </div>
       <motion.p
-        className="mb-10 mt-4 px-4 text-xl !leading-[1.5] sm:text-2xl font-medium"
+        className="mb-10 mt-4 px-4 text-xl !leading-[1.5] sm:text-2xl font-semibold"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span>Hello, I'm </span>
-        <span className="font-bold">Mhmd Abdlrazq </span>
-        <br />
-        <span className="">Full-Stack Developer </span>
-        <br />
-        <span>
-          A curiousity-driven coder with a passion for designing and building
-          user-centric, inclusive experiences on the web.
-        </span>
+    <span className="text-lg sm:text-xl mb-2 text-gray-900">As-salamu alaykum, I'm {"  "}</span>
+    <span className="mb-2 text-lg sm:text-xl font-bold text-purple-950">Mohmd Abdlrazq</span>
+    <span className="block text-lg sm:text-xl mb-4 text-gray-700">Full-Stack Developer</span>
+    <span className="block  text-lg sm:text-xl text-gray-800">
+        A curiosity-driven full-stack developer passionate about creating user-centric, inclusive web experiences. Skilled in both front-end and back-end technologies, I strive to build efficient and engaging applications.
+    </span>
+
       </motion.p>
       <motion.div
         className="flex flex-col sm:flex-row justify-center items-center gap-2 px-2 text-lg font-medium"
