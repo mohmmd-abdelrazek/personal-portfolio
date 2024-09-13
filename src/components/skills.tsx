@@ -12,7 +12,7 @@ const fadeIn = {
 
 const Skills = () => {
   return (
-    <section className="">
+    <section id="skills" className="">
         <SectionHeading>Skills</SectionHeading>
       <motion.div
         className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-6"

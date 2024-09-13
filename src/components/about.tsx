@@ -13,9 +13,9 @@ export default function About() {
             full-stack web development My favorite part of programming is the
             problem-solving aspect. I love the feeling of finally figuring out a
             solution to a problem. My core stack is React, Next.js, Node.js, and
-            MongoDB . I am also familiar with TypeScript and Prisma. I am always
+            MongoDB . I am also familiar with TypeScript and Postgres. I am always
             looking to learn new technologies. I am currently looking for a
-            full-time position as a software developer.
+            freelance or a full-time position as a full-stack developer.
           </p>
         </div>
         <AnimatdedCircles />
