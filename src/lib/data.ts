@@ -2,7 +2,7 @@ import corpcommentImg from "../../public/img1.png";
 import rmtdevImg from "../../public/img1.png";
 import wordanalyticsImg from "../../public/img1.png";
 import { IconType } from "react-icons";
-import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiNodedotjs, SiGit, SiTailwindcss, SiPrisma, SiMongodb, SiRedux, SiGraphql, SiApollographql, SiExpress, SiPostgresql, SiPython, SiDjango, SiFramer } from "react-icons/si";
+import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiNodedotjs, SiGit, SiTailwindcss, SiPrisma, SiMongodb, SiRedux, SiGraphql, SiApollographql, SiExpress, SiPostgresql, SiPython, SiDjango, SiFramer, SiDocker } from "react-icons/si";
 
 export const links = [
   {
@@ -62,10 +62,9 @@ export const skillsData: { name: string; icon: IconType }[] = [
   { name: "Node.js", icon: SiNodedotjs },
   { name: "Git", icon: SiGit },
   { name: "Tailwind", icon: SiTailwindcss },
-  { name: "Prisma", icon: SiPrisma },
   { name: "MongoDB", icon: SiMongodb },
-  { name: "Redux", icon: SiRedux },
   { name: "Express", icon: SiExpress },
   { name: "PostgreSQL", icon: SiPostgresql },
   { name: "Framer Motion", icon: SiFramer },
+  { name: "Docker", icon: SiDocker},
 ];
