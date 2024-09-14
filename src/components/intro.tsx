@@ -9,7 +9,7 @@ const Intro = () => {
   return (
     <section
       id="home"
-      className="flex flex-col items-center text-center sm:max-w-[45rem] lg:max-w-[50rem]"
+      className="flex flex-col items-center text-center sm:max-w-[45rem] lg:max-w-[50rem] scroll-mt-96"
     >
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6">
         <div className="flex justify-center items-center">
@@ -59,11 +59,11 @@ const Intro = () => {
         </motion.div>
       </div>
       <motion.div
-        className="mb-12 px-4 text-xl !leading-[1.7] flex flex-col items-center sm:text-2xl font-semibold"
+        className="gap-12 mb-12 px-4 text-xl !leading-[1.7] flex flex-col items-center sm:text-2xl font-semibold"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <h1 className="text-xl max-w-md sm:text-2xl font-bold mb-12 text-gray-950">
+        <h1 className="text-xl max-w-md sm:text-2xl font-bold text-gray-950">
           Full-Stack Web Developer Specialized in Next.js & Express.js
         </h1>
         <h2 className="text-lg sm:text-xl text-gray-800 hidden md:block">
@@ -136,9 +136,13 @@ const Intro = () => {
             </div>
           </div>
         </motion.div>
-        <p className="hidden md:block font-bold self-start pl-2 pt-4 text-lg">
+        <motion.p className="hidden md:block font-bold self-start pl-2 pt-4 text-lg" initial={{ y: 100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{
+            delay: 0.1,
+          }}>
           tel: 01060150685
-        </p>
+        </motion.p>
       </div>
     </section>
   );

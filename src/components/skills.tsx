@@ -12,19 +12,17 @@ const fadeIn = {
 
 const Skills = () => {
   return (
-    <section id="skills" className="">
-        <SectionHeading>Skills</SectionHeading>
-      <motion.div
-        className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-6"
-      >
+    <section id="skills" className="scroll-mt-28">
+      <SectionHeading>Skills</SectionHeading>
+      <motion.div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-6">
         {skillsData.map((skill, index) => (
           <motion.div
             key={skill.name}
             className="flex flex-col items-center text-center"
-            initial={{opacity: 0, y: 100}}
-            whileInView={{opacity: 1, y: 0}}
-            transition={{delay: 0.1 * index}}
-            viewport={{once: true}}
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 * index }}
+            viewport={{ once: true }}
           >
             <skill.icon className="text-2xl sm:text-3xl text-gray-700 mb-4" />
             <span className="text-lg font-medium text-gray-800">

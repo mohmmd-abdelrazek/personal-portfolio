@@ -38,7 +38,7 @@ const circles = [
 const colors = ["#6A0DAD", "#FF6347", "#FFD700", "#1E90FF"];
 
 const AnimatedCircles = () => (
-  <svg viewBox="0 0 100 100" className="w-1/2 self-center px-8 hidden xl:flex">
+  <svg viewBox="0 0 100 100" className="w-1/3 self-center px-8 hidden xl:flex">
     {circles.map((circle, index) => (
       <motion.circle
         key={index}

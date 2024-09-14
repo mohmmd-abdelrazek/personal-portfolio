@@ -1,6 +1,5 @@
-import corpcommentImg from "../../public/img1.png";
-import rmtdevImg from "../../public/img1.png";
-import wordanalyticsImg from "../../public/img1.png";
+import mobiTrendImg from "../../public/mobitrend.png";
+import koraImg from "../../public/kora.png";
 import { IconType } from "react-icons";
 import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiNodedotjs, SiGit, SiTailwindcss, SiPrisma, SiMongodb, SiRedux, SiGraphql, SiApollographql, SiExpress, SiPostgresql, SiPython, SiDjango, SiFramer, SiDocker } from "react-icons/si";
 
@@ -10,12 +9,12 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
-    hash: "#about",
-  },
-  {
     name: "Projects",
     hash: "#projects",
+  },
+  {
+    name: "About",
+    hash: "#about",
   },
   {
     name: "Skills",
@@ -30,25 +29,20 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "MobiTrend | Mobile Ecommerce",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      " Developed an e-commerce platform for mobile phones with features including User Authentication, Product Filtering, Product Pages with Slugs and Admin Dashboard for Inventory Management.",
+    tags: ["React", "Next.js", "Tailwind", "Express.js", "MongoDB", "NGINX", "Docker", "Stripe"],
+    imageUrl: mobiTrendImg,
+    link: "https://mobitrend.onrender.com",
   },
   {
-    title: "rmtDev",
+    title: "Kora | League Creation App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Developed a web app to create and manage custom football leagues, featuring Stripe Payments with Webhooks, League Pages with Auto-Schedule, Multi-Language Support (Arabic/English) and Dashboard for Created Leagues",
+    tags: ["TypeScript", "Next.js", "Tailwind", "Express.js", "PostgreSQL", "NGINX", "Docker"],
+    imageUrl: koraImg,
+    link: "https://kora-w5ux.onrender.com"
   },
 ] as const;
 

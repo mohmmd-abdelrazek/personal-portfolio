@@ -4,7 +4,10 @@ import { BsTelephone, BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <section id="contact" className="sm:max-w-[45rem] lg:max-w-[55rem] mb-20">
+    <section
+      id="contact"
+      className="sm:max-w-[45rem] lg:max-w-[55rem] mb-20 scroll-mt-28"
+    >
       <SectionHeading>contact</SectionHeading>
       <p className="sm:max-w-[30rem] lg:max-w-[40rem] mb-8 text-xl text-center">
         I'm currently open to freelance and actively looking for full-time job
