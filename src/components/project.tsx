@@ -33,7 +33,7 @@ export default function Project({
       }}
     >
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <section className="flex flex-col md:flex-row relative bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 sm:h-[32rem] md:h-[24] h-[38rem] group-even:pl-8 hover:bg-gray-200 transition">
+        <section className="flex flex-col gap-2 pt-12 pb-4 px-2 md:flex-row relative bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden md:pr-8 sm:h-[32rem] md:h-[24] h-[38rem] group-even:md:pl-8 hover:bg-gray-200 transition">
               <Image
                 className="group-even:-left-40 group-even:right-[initial] md:absolute bottom-0 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-1 group-even:group-hover:translate-x-3 group-even:group-hover:rotate-2 group-hover:scale-[1.04] transition h-[28rem]"
                 src={imageUrl}
