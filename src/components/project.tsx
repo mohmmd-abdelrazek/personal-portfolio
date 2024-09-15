@@ -33,13 +33,13 @@ export default function Project({
       }}
     >
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <section className="flex flex-col gap-2 pt-12 pb-4 px-2 md:flex-row relative bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden md:pr-8 sm:h-[32rem] md:h-[24] h-[38rem] group-even:md:pl-8 hover:bg-gray-200 transition">
+        <section className="flex flex-col gap-2 pt-12 pb-4 px-2 md:flex-row relative bg-gray-100 max-w-[50rem] border border-black/5 overflow-hidden md:pr-8 sm:h-[32rem] md:h-[28rem] h-[38rem] group-even:md:pl-8 hover:bg-gray-200 transition">
               <Image
-                className="group-even:-left-40 group-even:right-[initial] md:absolute bottom-0 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-1 group-even:group-hover:translate-x-3 group-even:group-hover:rotate-2 group-hover:scale-[1.04] transition h-[28rem]"
+                className="group-even:-left-40 group-even:right-[initial] md:absolute bottom-0 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-1 group-even:group-hover:translate-x-3 group-even:group-hover:rotate-2 group-hover:scale-[1.04] transition h-[24rem]"
                 src={imageUrl}
                 alt="Projects I worked on"
               />
-          <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 md:max-w-[50%] h-full flex flex-col group-even:md:ml-[18rem]">
+          <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-8 md:max-w-[60%] h-full flex flex-col group-even:md:ml-[18rem]">
             <h3 className="text-2xl font-semibold">{title}</h3>
             <p className="mt-2 leading-relaxed text-gray-700">{description}</p>
             <ul className="flex gap-2 flex-wrap mt-auto">
